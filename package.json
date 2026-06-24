@@ -1,0 +1,23 @@
+{
+  "name": "pump-sniper",
+  "version": "1.0.0",
+  "description": "pump.fun token sniper bot — filters by creator wallet, auto-buys on LaserStream, manages positions.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "test":  "node test.js"
+  },
+  "keywords": ["pump.fun", "solana", "sniper", "bot", "laserstream", "grpc"],
+  "author": "rafael_silva",
+  "license": "MIT",
+  "engines": { "node": ">=18.0.0" },
+  "dependencies": {
+    "@solana/spl-token": "^0.4.0",
+    "@solana/web3.js":   "^1.91.8",
+    "bs58":              "^5.0.0",
+    "dotenv":            "^16.4.5",
+    "pump-laserstream-parser": "^2.0.0",
+    "pump-stream-logger":      "^1.0.0"
+  }
+}
