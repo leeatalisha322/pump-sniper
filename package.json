@@ -9,7 +9,7 @@
     "test":  "node test.js"
   },
   "keywords": ["pump.fun", "solana", "sniper", "bot", "laserstream", "grpc"],
-  "author": "rafael_silva",
+  "author": "leeatalisha322",
   "license": "MIT",
   "engines": { "node": ">=18.0.0" },
   "dependencies": {
